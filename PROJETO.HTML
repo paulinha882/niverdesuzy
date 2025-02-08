@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Susuu</title>
+    <style>
+        /* Reset de margens e padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Corpo do site */
+        body {
+            font-family: 'bodini';
+            background-color: #5e2a8c; /* Roxo escuro */
+            color: white;
+            padding: 0;
+            margin: 0;
+        }
+
+        /* Container principal */
+        .container {
+            display: flex;
+            flex-direction: column;
+            min-height: 90vh;
+            padding: 10px;
+        }
+
+        /* Cabeçalho */
+        .header {
+            text-align: center;
+            padding: 10px 10px;
+            background-color: #8e44ad; /* Roxo claro */
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .header h1 {
+            font-size: 45px;
+            margin-bottom: 10px;
+            font-weight: bold;
+            color: magenta; /* Cor da letra */
+            text-shadow:
+    0 0 5px white,  /* Sombra de brilho vermelho */
+    0 0 10px white,  /* Sombra mais intensa */
+    0 0 15px white;  /* Sombra ainda mais intensa */
+           
+}
+        
+
+        .header p {
+            font-size: 1.5em;
+            font-weight: 300;
+        }
+
+        /* Conteúdo */
+        .content {
+            flex: 1;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Mensagem personalizada */
+        .message p {
+            font-size: 1.3em;
+            margin-bottom: 10px;
+            font-family: 'Verdana';
+        }
+
+        .message p {
+            font-size: 1.3em;
+            margin-bottom: 30px;
+            line-height: 1.6;
+            font-family:  'verdana';
+           
+        }
+       .trecho {
+           font-size: 16px;
+           text-align: center;
+           color: silver;
+           text-shadow:
+           0 0 5px magenta,
+           0 0 10px magenta,
+           0 0 15px magenta;
+           margin-top: 10px; /* Espaço antes do texto */
+    margin-bottom: 20px; /* Espaço após o texto */
+       }
+      .footer {
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    background-color: #8e44ad; /* Roxo claro */
+    margin-top: 20px;
+    border-radius: 10px;
+    flex-shrink: 0; /* Garante que o footer não seja comprimido */
+          color: magenta; /* Cor da letra */
+            text-shadow:
+    0 0 5px #8e44ad,  /* Sombra de brilho vermelho */
+    0 0 10px #8e44ad,  /* Sombra mais intensa */
+    0 0 15px #8e44ad; 
+}
+    @media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    .header h1 {
+        font-size: 30px;
+    }
+
+    .foto img {
+        width: 100%;
+        height: auto;
+    }
+    
+    }
+   </style>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Feliz Aniversário, Suzete!</h1>
+             </header>
+         <section class="content">
+            <div class="message">
+                <p>Suzy,
+sabe pq és tão especial para mim? Nos momentos ruins que tive, você esteve ao meu lado, e eu jamais esquecerei. Eu amo dividir a minha rotina com você, amo te ter na minha vida, amo brincar de brigar com você, até pq se a gente brigar, 3 min depois estamos de boaça☝🏻
+22/02 é uma data muito especial, pois nasceu alguém extremamente incrível, e que eu vou levar no meu coração p vida toda!! Quero que você saiba que eu estarei aqui ao seu lado sempre que for preciso, para escutar tudo que vc tenha a desabafar, xingar quem te estressa, falar da rotina repetitiva dentre muitas outras coisas. Você se tornou parte de mim... E eu espero que essa parte de mim nunca seja arrancada</p>
+               <!-- Você pode adicionar imagens aqui -->
+                    <div class="photos">
+               <img src="foto1.jpg.jpg" alt="Imagem 1" style="width: 400px;">
+                        <div class="message">
+                            <p>
+                               Eu amo essa foto, verde e marrom combinam, ainda mais quando se trata de olhos! Esse dia foi muito legal também, todos os dias com você são legais, até os tristes ou estressantes.
+Amo registrar momentos com você, não sei se é verídico que nada dura para o resto da vida, mas, eu queria que a nossa amizade durasse...
+Bem, se depender de mim, a gente vai estar com uns 65 anos discutindo sobre adolescentes rebeldes kkkkkkkkkk. Eu te desejo tudo de maravilhoso nesse mundo, desejo a ti uma ótima vida, um alguém que possa cuidar de ti da forma que merece, e que você vença na vida em tudo!! Até pq, vc será madrinha dos meus filhos, e vai ter que ser a tia rica☝🏻🙄 kakakakkakaka, brincadeira Suzete, vc pode ser a madrinha mais ou menos de vida também, só não ensina baixarias ☝🏻.
+De alguma forma, sinto que devo cuidar de vc como se fosse uma irmã mais nova, e cuidarei, pois, é a irmã que a vida me deu. Muito obrigada por ser você! Você é extremamente linda, inteligente, capaz, dedicada e incrivelmente incrível! Também é muito, muito, muito especial para mim.
+Eu não sei muito oq falar pq não sei expressar em palavras o tanto que você é incrível. Feliz aniversário, eu te amo🤍
+                            </p>
+                        </div>
+                   
+            <div class="foto 2">
+                <img src="foto2.jpg.jpg"
+                    alt="Imagem 2"
+                    style="width: 400px;
+             height: 400px;
+                    object-fit: cover">
+                <div class="trecho 3">
+                    <p><i>eu me sinto menos estranha quando a gente junta as nossas estranhices</i></p>
+                </div>
+            </div>
+            <div class="foto 3">
+                <img src="foto6.jpg"
+                    alt= "imagem 3"
+                    style="width: 400px;
+                    height: 400px;
+                    object-fit: cover">
+               </div>
+                <div class="trecho 2">
+                    <p><i>"Teu olhar é lindo, ver você sorrindo é demais!"-Djavan</i></p>
+                     </div>
+                <div class="foto 4">
+                <img src="foto4.jpg.jpg"
+                     alt="imagem 4"
+                     style="width: 400px;
+                     height: 400px;
+                     object-fit: cover">
+                </div>
+                    <div class= "trecho 3">
+                        <p><i>"Eu realmente não sei<br>o que eu fiz pra merecer você"-Marisa Monte</i></p>
+                </div>
+                <div class="foto5">
+                    <img src="foto3.jpg.jpg"
+                    alt="imagem 5"
+                    style="width: 400px;
+                    height: 400px;
+                    object-fit: cover">
+                </div>
+              </section>
+                <div class= "trecho 4">
+                    <p><i>"E é tão bom saber<br>que alguém que me conhece<br> assim tão bem existe"-Anavitoria</i></p>
+                    </div>
+                <div class="video 1">
+                <video height="400" width= 450 controls>
+                <source src="video1.mp4" type="video/mp4">
+                     </video>
+               </div>
+                <div class="video 2">
+                    <video  height="400" width="450" controls>
+                        <source src="video2.mp4" type="video/mp4">
+                    </video>
+                </div>
+        <div class="footer">
+        <p>com muito, muito amor, Paulete🤍<br>
+            22/02/2025
+        </p>
+        </div>
+</script>
+</body>
+</html>
+
